@@ -1,0 +1,33 @@
+.AppPage{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+main{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.listaPeliculas{
+    width: 100%;
+    display: grid;
+    align-items: center;
+    align-content: center;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+
+}
+
+.listaPeliculas li {
+    list-style: none;
+    text-align: center;
+}
